@@ -43,7 +43,8 @@
     ], true],
     ["expert", "<span style='color: #f13e5c;'>Expert</span>", [
         ["modcharts", "Modcharting"],
-        ["3d", "3D Rendering"],
+        ["3d-legacy", "3D with Away3D (Legacy)"],
+        ["3d", "3D with Foxlite"],
         ["classes", "Scripted Classes"]
     ], true],
     ["master", "<img src='https://tiermaker.com/images/templates/mr-incredible-uncanny-faces-1206582/12065821641131983.png' height='32' style='display: flex; width: 100%;'/>", [
