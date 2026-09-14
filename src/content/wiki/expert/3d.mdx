@@ -4,6 +4,13 @@ desc: This page explains how Foxlite can be used for 3D rendering for your mod.
 lastUpdated: 2026-09-12T22:48:00.000Z
 title: Advanced Topics - 3D with Foxlite
 ---
+import Note from '../../../components/Note.astro';
+
+<Note level="warning">
+Foxlite is still under development and should not be considered
+as fully stable yet. It's still advised that you go for Experimental builds as they
+will most likely contain patches for bugs not caught in the latest release candidate.
+</Note>
 
 # "The hell's Foxlite?"
 Foxlite is a 3D renderer for HaxeFlixel that replaces the built-in Away3D renderer, designed to be hardware-accelerated (you get more FPS) and features a flexible rendering pipeline that basically means that your 3D scenes can be photorealistic.
@@ -26,7 +33,7 @@ Before starting, make sure that you have the following:
 
 - A copy of Codename Engine that has Foxlite.
   - To be exact, Foxlite replaced Away3D in commit `8378ae0` in the now archived `internal-merge` branch.
-  - As of writing, v1.1.0-rc3 is the latest version with Foxlite integration. You may grab this, but it's highly advised to turn to the latest Experimental builds, as there might be bugs in `rc3` that were only fixed in later commits.
+  - As of writing, v1.1.0-rc3 is the latest (pre-release) version with Foxlite integration. 
 - A GPU (either discrete or integrated) that supports OpenGL 2.1.
 - Any code editor of your choosing.
 - A 3D modeling software capable of exporting to Wavefront `.obj` files.
